@@ -4,7 +4,7 @@
 
 **Git**
 ```
-git clone xyz
+git clone https://github.com/samuelweller21/SAAT.git
 cd SAAT
 ```
 
