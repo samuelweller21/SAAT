@@ -63,7 +63,7 @@ class SAAT(Annealer):
             index = index + size_of_group
 
             # Subtract one from each
-            group_ids = [x-1 for x in group_ids]
+            group_ids = [x-2 for x in group_ids]
             
             # Retrieve from x
             y = self.x[group_ids, :]
@@ -90,9 +90,9 @@ class SAAT(Annealer):
             if self.organise is not None:
                 y = self.organise[group_ids]
 
-                if ("Yes" in y):
+                if ((1 in y) or ('Yes' in y)):
                     total_score = total_score + 1
-                elif ("If needed" in y):
+                elif ((0.5 in y) or ('If needed' in y)):
                     total_score = total_score + 0.5
                 
             # Retrieve from time_in_company

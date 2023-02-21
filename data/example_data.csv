@@ -1,113 +1,113 @@
 Name,Email,Years_In_Org,Grade,Setup,Topic,1-2pm,2-3pm,3-4pm,4-5pm,5-6pm,1-2pm2,2-3pm2,3-4pm2,4-5pm2,5-6pm2,1-2pm,2-3pm3,3-4pm3,4-5pm3,5-6pm3
-Person1,Person1@DepartmentG.com,<1 year,Level1,0,Topic1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1
-Person2,Person2@DepartmentN.com,3-5 years,Level2,1,Topic2,1,1,0,0,0,1,1,1,0,0,1,1,1,0,0
-Person3,Person3@DepartmentK.com,1-3 years,Level2,1,Topic2,0,0,1,1,0,1,1,1,0,0,0,1,1,0,0
-Person4,Person4@DepartmentN.com,5-10 years,Level3,1,Topic3,1,1,1,1,1,1,0,0,0,1,1,1,1,1,0
-Person5,Person5@DepartmentL.com,5-10 years,Level3,0,Topic3,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
-Person6,Person6@DepartmentG.com,>10 years,Level3,1,Topic3,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1
-Person7,Person7@DepartmentC.com,1-3 years,Level2,0,Topic2,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0
-Person8,Person8@DepartmentE.com,3-5 years,Level2,0,Topic2,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0
-Person9,Person9@DepartmentK.com,<1 year,Level2,0,Topic3,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0
-Person10,Person10@DepartmentF.com,1-3 years,Level2,0,Topic1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0
-Person11,Person11@DepartmentG.com,>10 years,Level3,0,Topic2,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0
-Person12,Person12@DepartmentH.com,5-10 years,Level2,1,Topic1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0
-Person13,Person13@DepartmentH.com,5-10 years,Level3,0,Topic2,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0
-Person14,Person14@DepartmentH.com,>10 years,Level3,1,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
-Person15,Person15@DepartmentE.com,5-10 years,Level3,1,Topic2,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1
-Person16,Person16@DepartmentL.com,1-3 years,Level2,0,Topic1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0
-Person17,Person17@DepartmentG.com,>10 years,Level2,0,Topic1,1,1,1,0,0,0,1,1,0,0,0,1,0,1,0
-Person18,Person18@DepartmentV.com,<1 year,Level3,1,Topic3,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0
-Person19,Person19@DepartmentC.com,1-3 years,Level3,0,Topic2,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0
-Person20,Person20@DepartmentH.com,>10 years,Level3,1,Topic1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1
-Person21,Person21@DepartmentB.com,1-3 years,Level2,0,Topic2,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
-Person22,Person22@DepartmentL.com,5-10 years,Level2,0,Topic3,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
-Person23,Person23@DepartmentK.com,1-3 years,Level2,1,Topic1,0,1,1,0,0,0,1,1,0,0,1,1,1,0,0
-Person24,Person24@DepartmentH.com,<1 year,Level2,1,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person25,Person25@DepartmentS.com,<1 year,Level2,0,Topic3,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1
-Person26,Person26@DepartmentQ.com,>10 years,Level3,0,Topic2,1,1,1,0,0,1,0,1,1,0,1,1,1,1,0
-Person27,Person27@DepartmentA.com,3-5 years,Level3,0,Topic2,1,1,1,1,0,0,0,1,1,0,1,1,1,1,0
-Person28,Person28@DepartmentK.com,1-3 years,Level2,0,Topic3,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1
-Person29,Person29@DepartmentL.com,3-5 years,Level2,1,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person30,Person30@DepartmentA.com,3-5 years,Level3,1,Topic2,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
-Person31,Person31@DepartmentI.com,5-10 years,Level3,1,Topic1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person32,Person32@DepartmentG.com,1-3 years,Level2,1,Topic1,1,1,0,0,0,1,1,1,1,0,1,1,1,0,0
-Person33,Person33@DepartmentA.com,5-10 years,Level3,0,Topic2,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1
-Person34,Person34@DepartmentO.com,>10 years,Level3,0,Topic1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person35,Person35@DepartmentG.com,>10 years,Level2,1,Topic1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,1
-Person36,Person36@DepartmentE.com,>10 years,Level3,1,Topic2,1,1,0,0,0,1,0,1,1,1,0,0,0,0,0
-Person37,Person37@DepartmentA.com,<1 year,Level1,0,Topic3,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
-Person38,Person38@DepartmentK.com,1-3 years,Level2,0,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
-Person39,Person39@DepartmentD.com,<1 year,Level2,0,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person40,Person40@DepartmentF.com,5-10 years,Level3,0,Topic3,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1
-Person41,Person41@DepartmentN.com,<1 year,Level2,0,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person42,Person42@DepartmentL.com,1-3 years,Level2,1,Topic3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
-Person43,Person43@DepartmentL.com,1-3 years,Level2,0,Topic2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
-Person44,Person44@DepartmentO.com,<1 year,Level2,0,Topic2,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1
-Person45,Person45@DepartmentR.com,1-3 years,Level2,0,Topic2,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person46,Person46@DepartmentH.com,1-3 years,Level2,0,Topic3,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
-Person47,Person47@DepartmentK.com,>10 years,Level3,0,Topic3,1,1,0,1,1,0,0,0,0,0,1,1,0,1,1
-Person48,Person48@DepartmentJ.com,1-3 years,Level2,0,Topic1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
-Person49,Person49@DepartmentW.com,<1 year,Level2,0,Topic2,1,0,1,1,0,1,0,1,1,0,1,0,1,1,0
-Person50,Person50@DepartmentA.com,5-10 years,Level3,0,Topic1,0,1,1,1,0,0,1,1,1,0,0,0,0,0,0
-Person51,Person51@DepartmentA.com,3-5 years,Level2,0,Topic3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person52,Person52@DepartmentK.com,5-10 years,Level3,1,Topic2,1,1,0,1,0,1,0,0,1,0,1,1,1,0,0
-Person53,Person53@DepartmentN.com,<1 year,Level2,0,Topic2,0,0,0,1,0,1,1,1,1,0,1,1,1,1,0
-Person54,Person54@DepartmentA.com,1-3 years,Level2,0,Topic1,1,0,1,1,0,1,0,1,1,0,1,0,1,0,0
-Person55,Person55@DepartmentH.com,1-3 years,Level2,1,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
-Person56,Person56@DepartmentA.com,<1 year,Level2,0,Topic2,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0
-Person57,Person57@DepartmentL.com,1-3 years,Level3,1,Topic2,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
-Person58,Person58@DepartmentG.com,3-5 years,Level2,0,Topic1,0,0,0,0,0,1,1,1,0,0,1,1,1,0,0
-Person59,Person59@DepartmentL.com,>10 years,Level3,0,Topic3,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0
-Person60,Person60@DepartmentF.com,1-3 years,Level2,0,Topic2,0,0,0,0,0,1,1,0,1,0,1,1,0,1,0
-Person61,Person61@DepartmentH.com,3-5 years,Level2,0,Topic2,1,1,1,1,0,1,1,1,1,0,1,0,1,0,0
-Person62,Person62@DepartmentF.com,5-10 years,Level3,0,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,0,0,0
-Person63,Person63@DepartmentD.com,1-3 years,Level3,1,Topic3,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
-Person64,Person64@DepartmentK.com,>10 years,Level3,1,Topic2,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0
-Person65,Person65@DepartmentG.com,<1 year,Level1,0,Topic1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
-Person66,Person66@DepartmentA.com,>10 years,Level3,0,Topic2,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0
-Person67,Person67@DepartmentN.com,<1 year,Level2,0,Topic1,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
-Person68,Person68@DepartmentG.com,<1 year,Level1,0,Topic1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person69,Person69@DepartmentF.com,5-10 years,Level3,0,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
-Person70,Person70@DepartmentK.com,<1 year,Level2,0,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-Person71,Person71@DepartmentK.com,<1 year,Level2,0,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
-Person72,Person72@DepartmentL.com,<1 year,Level1,0,Topic3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person73,Person73@DepartmentE.com,<1 year,Level2,1,Topic3,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1
-Person74,Person74@DepartmentE.com,>10 years,Level3,0,Topic1,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
-Person75,Person75@DepartmentD.com,3-5 years,Level2,0,Topic1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0
-Person76,Person76@DepartmentK.com,<1 year,Level2,0,Topic2,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0
-Person77,Person77@DepartmentW.com,<1 year,Level2,0,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
-Person78,Person78@DepartmentM.com,1-3 years,Level2,1,Topic3,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1
-Person79,Person79@DepartmentF.com,1-3 years,Level2,0,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,0,0
-Person80,Person80@DepartmentN.com,1-3 years,Level3,0,Topic2,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0
-Person81,Person81@DepartmentG.com,<1 year,Level1,0,Topic1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1
-Person82,Person82@DepartmentK.com,3-5 years,Level2,0,Topic2,0,0,1,1,0,0,0,0,1,0,0,0,0,1,1
-Person83,Person83@DepartmentU.com,5-10 years,Level3,0,Topic2,0,0,1,1,1,0,0,1,1,1,0,1,1,1,0
-Person84,Person84@DepartmentK.com,>10 years,Level3,0,Topic3,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0
-Person85,Person85@DepartmentN.com,3-5 years,Level2,0,Topic2,1,1,1,1,0,1,1,1,1,0,1,0,1,0,0
-Person86,Person86@DepartmentF.com,1-3 years,Level2,1,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
-Person87,Person87@DepartmentK.com,3-5 years,Level3,0,Topic2,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1
-Person88,Person88@DepartmentK.com,3-5 years,Level2,0,Topic1,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
-Person89,Person89@DepartmentK.com,1-3 years,Level2,0,Topic1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-Person90,Person90@DepartmentN.com,3-5 years,Level2,1,Topic2,1,0,1,1,0,1,0,0,1,0,1,1,1,0,0
-Person91,Person91@DepartmentK.com,<1 year,Level2,0,Topic2,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1
-Person92,Person92@DepartmentF.com,1-3 years,Level2,0,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,0,1,0
-Person93,Person93@DepartmentN.com,1-3 years,Level2,0,Topic2,1,1,1,1,0,1,1,0,0,0,1,1,1,0,0
-Person94,Person94@DepartmentU.com,<1 year,Level2,1,Topic2,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1
-Person95,Person95@DepartmentN.com,<1 year,Level2,0,Topic3,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0
-Person96,Person96@DepartmentH.com,5-10 years,Level3,1,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
-Person97,Person97@DepartmentG.com,5-10 years,Level2,1,Topic2,0,0,1,1,0,1,0,1,1,0,1,0,0,1,0
-Person98,Person98@DepartmentG.com,<1 year,Level2,0,Topic2,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person99,Person99@DepartmentP.com,1-3 years,Level2,0,Topic2,0,1,1,1,0,0,1,1,1,0,1,1,0,0,0
-Person100,Person100@DepartmentA.com,3-5 years,Level3,0,Topic2,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1
-Person101,Person101@DepartmentL.com,5-10 years,Level2,0,Topic2,0,0,0,1,1,0,0,0,1,1,0,1,1,0,0
-Person102,Person102@DepartmentH.com,1-3 years,Level2,0,Topic2,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person103,Person103@DepartmentA.com,1-3 years,Level2,0,Topic2,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
-Person104,Person104@DepartmentT.com,3-5 years,Level3,0,Topic2,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0
-Person105,Person105@DepartmentL.com,3-5 years,Level2,1,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person106,Person106@DepartmentG.com,>10 years,Level3,0,Topic2,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0
-Person107,Person107@DepartmentS.com,1-3 years,Level2,0,Topic2,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0
-Person108,Person108@DepartmentE.com,3-5 years,Level3,1,Topic2,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
-Person109,Person109@DepartmentK.com,3-5 years,Level2,0,Topic2,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person110,Person110@DepartmentN.com,<1 year,Level2,0,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Person111,Person111@DepartmentG.com,1-3 years,Level2,0,Topic3,0,0,1,1,0,0,0,1,1,0,0,1,1,0,0
-Person112,Person112@DepartmentU.com,G7 / G6,Level3,0,Topic2,1,1,1,0,0,0,0,0,0,1,1,0,0,0,1
+Person1,Person1@DepartmentG.com,<1 year,Level1,If needed,Topic1,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1
+Person2,Person2@DepartmentN.com,3-5 years,Level2,Yes,Topic2,1,1,0,0,0,1,1,1,0,0,1,1,1,0,0
+Person3,Person3@DepartmentK.com,1-3 years,Level2,Yes,Topic2,0,0,1,1,0,1,1,1,0,0,0,1,1,0,0
+Person4,Person4@DepartmentN.com,5-10 years,Level3,Yes,Topic3,1,1,1,1,1,1,0,0,0,1,1,1,1,1,0
+Person5,Person5@DepartmentL.com,5-10 years,Level3,No,Topic3,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Person6,Person6@DepartmentG.com,>10 years,Level3,Yes,Topic3,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1
+Person7,Person7@DepartmentC.com,1-3 years,Level2,If needed,Topic2,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0
+Person8,Person8@DepartmentE.com,3-5 years,Level2,No,Topic2,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0
+Person9,Person9@DepartmentK.com,<1 year,Level2,If needed,Topic3,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0
+Person10,Person10@DepartmentF.com,1-3 years,Level2,If needed,Topic1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0
+Person11,Person11@DepartmentG.com,>10 years,Level3,If needed,Topic2,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+Person12,Person12@DepartmentH.com,5-10 years,Level2,Yes,Topic1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0
+Person13,Person13@DepartmentH.com,5-10 years,Level3,No,Topic2,1,1,1,1,1,1,1,1,1,0,1,1,1,0,0
+Person14,Person14@DepartmentH.com,>10 years,Level3,Yes,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
+Person15,Person15@DepartmentE.com,5-10 years,Level3,Yes,Topic2,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1
+Person16,Person16@DepartmentL.com,1-3 years,Level2,If needed,Topic1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0
+Person17,Person17@DepartmentG.com,>10 years,Level2,No,Topic1,1,1,1,0,0,0,1,1,0,0,0,1,0,1,0
+Person18,Person18@DepartmentV.com,<1 year,Level3,Yes,Topic3,1,1,1,1,1,1,0,1,1,1,1,1,0,0,0
+Person19,Person19@DepartmentC.com,1-3 years,Level3,No,Topic2,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0
+Person20,Person20@DepartmentH.com,>10 years,Level3,Yes,Topic1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1
+Person21,Person21@DepartmentB.com,1-3 years,Level2,No,Topic2,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+Person22,Person22@DepartmentL.com,5-10 years,Level2,If needed,Topic3,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+Person23,Person23@DepartmentK.com,1-3 years,Level2,Yes,Topic1,0,1,1,0,0,0,1,1,0,0,1,1,1,0,0
+Person24,Person24@DepartmentH.com,<1 year,Level2,Yes,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person25,Person25@DepartmentS.com,<1 year,Level2,If needed,Topic3,1,0,0,1,1,1,0,0,1,1,1,0,0,1,1
+Person26,Person26@DepartmentQ.com,>10 years,Level3,No,Topic2,1,1,1,0,0,1,0,1,1,0,1,1,1,1,0
+Person27,Person27@DepartmentA.com,3-5 years,Level3,If needed,Topic2,1,1,1,1,0,0,0,1,1,0,1,1,1,1,0
+Person28,Person28@DepartmentK.com,1-3 years,Level2,No,Topic3,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1
+Person29,Person29@DepartmentL.com,3-5 years,Level2,Yes,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person30,Person30@DepartmentA.com,3-5 years,Level3,Yes,Topic2,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Person31,Person31@DepartmentI.com,5-10 years,Level3,Yes,Topic1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person32,Person32@DepartmentG.com,1-3 years,Level2,Yes,Topic1,1,1,0,0,0,1,1,1,1,0,1,1,1,0,0
+Person33,Person33@DepartmentA.com,5-10 years,Level3,No,Topic2,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+Person34,Person34@DepartmentO.com,>10 years,Level3,No,Topic1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person35,Person35@DepartmentG.com,>10 years,Level2,Yes,Topic1,0,0,0,1,1,0,0,0,1,1,0,0,0,0,1
+Person36,Person36@DepartmentE.com,>10 years,Level3,Yes,Topic2,1,1,0,0,0,1,0,1,1,1,0,0,0,0,0
+Person37,Person37@DepartmentA.com,<1 year,Level1,If needed,Topic3,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
+Person38,Person38@DepartmentK.com,1-3 years,Level2,If needed,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
+Person39,Person39@DepartmentD.com,<1 year,Level2,No,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person40,Person40@DepartmentF.com,5-10 years,Level3,No,Topic3,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1
+Person41,Person41@DepartmentN.com,<1 year,Level2,If needed,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person42,Person42@DepartmentL.com,1-3 years,Level2,Yes,Topic3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Person43,Person43@DepartmentL.com,1-3 years,Level2,No,Topic2,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+Person44,Person44@DepartmentO.com,<1 year,Level2,No,Topic2,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1
+Person45,Person45@DepartmentR.com,1-3 years,Level2,If needed,Topic2,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person46,Person46@DepartmentH.com,1-3 years,Level2,If needed,Topic3,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
+Person47,Person47@DepartmentK.com,>10 years,Level3,If needed,Topic3,1,1,0,1,1,0,0,0,0,0,1,1,0,1,1
+Person48,Person48@DepartmentJ.com,1-3 years,Level2,If needed,Topic1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+Person49,Person49@DepartmentW.com,<1 year,Level2,If needed,Topic2,1,0,1,1,0,1,0,1,1,0,1,0,1,1,0
+Person50,Person50@DepartmentA.com,5-10 years,Level3,No,Topic1,0,1,1,1,0,0,1,1,1,0,0,0,0,0,0
+Person51,Person51@DepartmentA.com,3-5 years,Level2,No,Topic3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person52,Person52@DepartmentK.com,5-10 years,Level3,Yes,Topic2,1,1,0,1,0,1,0,0,1,0,1,1,1,0,0
+Person53,Person53@DepartmentN.com,<1 year,Level2,No,Topic2,0,0,0,1,0,1,1,1,1,0,1,1,1,1,0
+Person54,Person54@DepartmentA.com,1-3 years,Level2,If needed,Topic1,1,0,1,1,0,1,0,1,1,0,1,0,1,0,0
+Person55,Person55@DepartmentH.com,1-3 years,Level2,Yes,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
+Person56,Person56@DepartmentA.com,<1 year,Level2,No,Topic2,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0
+Person57,Person57@DepartmentL.com,1-3 years,Level3,Yes,Topic2,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+Person58,Person58@DepartmentG.com,3-5 years,Level2,No,Topic1,0,0,0,0,0,1,1,1,0,0,1,1,1,0,0
+Person59,Person59@DepartmentL.com,>10 years,Level3,No,Topic3,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0
+Person60,Person60@DepartmentF.com,1-3 years,Level2,If needed,Topic2,0,0,0,0,0,1,1,0,1,0,1,1,0,1,0
+Person61,Person61@DepartmentH.com,3-5 years,Level2,If needed,Topic2,1,1,1,1,0,1,1,1,1,0,1,0,1,0,0
+Person62,Person62@DepartmentF.com,5-10 years,Level3,If needed,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,0,0,0
+Person63,Person63@DepartmentD.com,1-3 years,Level3,Yes,Topic3,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+Person64,Person64@DepartmentK.com,>10 years,Level3,Yes,Topic2,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0
+Person65,Person65@DepartmentG.com,<1 year,Level1,If needed,Topic1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
+Person66,Person66@DepartmentA.com,>10 years,Level3,If needed,Topic2,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+Person67,Person67@DepartmentN.com,<1 year,Level2,If needed,Topic1,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+Person68,Person68@DepartmentG.com,<1 year,Level1,If needed,Topic1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person69,Person69@DepartmentF.com,5-10 years,Level3,No,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
+Person70,Person70@DepartmentK.com,<1 year,Level2,No,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Person71,Person71@DepartmentK.com,<1 year,Level2,No,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+Person72,Person72@DepartmentL.com,<1 year,Level1,If needed,Topic3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person73,Person73@DepartmentE.com,<1 year,Level2,Yes,Topic3,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1
+Person74,Person74@DepartmentE.com,>10 years,Level3,If needed,Topic1,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+Person75,Person75@DepartmentD.com,3-5 years,Level2,If needed,Topic1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0
+Person76,Person76@DepartmentK.com,<1 year,Level2,No,Topic2,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0
+Person77,Person77@DepartmentW.com,<1 year,Level2,No,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
+Person78,Person78@DepartmentM.com,1-3 years,Level2,Yes,Topic3,1,0,1,1,1,1,1,1,1,1,0,1,1,1,1
+Person79,Person79@DepartmentF.com,1-3 years,Level2,No,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,0,0
+Person80,Person80@DepartmentN.com,1-3 years,Level3,If needed,Topic2,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0
+Person81,Person81@DepartmentG.com,<1 year,Level1,If needed,Topic1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1
+Person82,Person82@DepartmentK.com,3-5 years,Level2,If needed,Topic2,0,0,1,1,0,0,0,0,1,0,0,0,0,1,1
+Person83,Person83@DepartmentU.com,5-10 years,Level3,If needed,Topic2,0,0,1,1,1,0,0,1,1,1,0,1,1,1,0
+Person84,Person84@DepartmentK.com,>10 years,Level3,If needed,Topic3,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0
+Person85,Person85@DepartmentN.com,3-5 years,Level2,No,Topic2,1,1,1,1,0,1,1,1,1,0,1,0,1,0,0
+Person86,Person86@DepartmentF.com,1-3 years,Level2,Yes,Topic2,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
+Person87,Person87@DepartmentK.com,3-5 years,Level3,No,Topic2,0,0,1,1,1,0,0,1,1,1,0,0,1,1,1
+Person88,Person88@DepartmentK.com,3-5 years,Level2,No,Topic1,1,1,1,0,0,1,1,1,0,0,1,1,1,0,0
+Person89,Person89@DepartmentK.com,1-3 years,Level2,If needed,Topic1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Person90,Person90@DepartmentN.com,3-5 years,Level2,Yes,Topic2,1,0,1,1,0,1,0,0,1,0,1,1,1,0,0
+Person91,Person91@DepartmentK.com,<1 year,Level2,No,Topic2,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1
+Person92,Person92@DepartmentF.com,1-3 years,Level2,If needed,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,0,1,0
+Person93,Person93@DepartmentN.com,1-3 years,Level2,If needed,Topic2,1,1,1,1,0,1,1,0,0,0,1,1,1,0,0
+Person94,Person94@DepartmentU.com,<1 year,Level2,Yes,Topic2,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1
+Person95,Person95@DepartmentN.com,<1 year,Level2,No,Topic3,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0
+Person96,Person96@DepartmentH.com,5-10 years,Level3,Yes,Topic2,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0
+Person97,Person97@DepartmentG.com,5-10 years,Level2,Yes,Topic2,0,0,1,1,0,1,0,1,1,0,1,0,0,1,0
+Person98,Person98@DepartmentG.com,<1 year,Level2,If needed,Topic2,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person99,Person99@DepartmentP.com,1-3 years,Level2,If needed,Topic2,0,1,1,1,0,0,1,1,1,0,1,1,0,0,0
+Person100,Person100@DepartmentA.com,3-5 years,Level3,If needed,Topic2,1,1,1,1,1,0,0,1,0,1,1,1,1,1,1
+Person101,Person101@DepartmentL.com,5-10 years,Level2,If needed,Topic2,0,0,0,1,1,0,0,0,1,1,0,1,1,0,0
+Person102,Person102@DepartmentH.com,1-3 years,Level2,If needed,Topic2,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person103,Person103@DepartmentA.com,1-3 years,Level2,No,Topic2,0,1,1,1,0,0,1,1,1,0,0,1,1,1,0
+Person104,Person104@DepartmentT.com,3-5 years,Level3,No,Topic2,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Person105,Person105@DepartmentL.com,3-5 years,Level2,Yes,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person106,Person106@DepartmentG.com,>10 years,Level3,If needed,Topic2,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0
+Person107,Person107@DepartmentS.com,1-3 years,Level2,If needed,Topic2,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0
+Person108,Person108@DepartmentE.com,3-5 years,Level3,Yes,Topic2,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Person109,Person109@DepartmentK.com,3-5 years,Level2,No,Topic2,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person110,Person110@DepartmentN.com,<1 year,Level2,If needed,Topic2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Person111,Person111@DepartmentG.com,1-3 years,Level2,No,Topic3,0,0,1,1,0,0,0,1,1,0,0,1,1,0,0
+Person112,Person112@DepartmentU.com,G7 / G6,Level3,If needed,Topic2,1,1,1,0,0,0,0,0,0,1,1,0,0,0,1

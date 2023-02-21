@@ -1,15 +1,14 @@
 import math
+import pandas as pd
 import numpy as np
 import random
 from simanneal import Annealer
 import random
 import numpy as np
+import re
 from termcolor import colored, cprint
-
-def email_to_department(email):
-    email = email[email.index("@")+1:]
-    email = email[0:email.index(".")]
-    return email.lower()
+import warnings
+warnings.simplefilter('ignore', FutureWarning)
 
 def standard_g(n, size):
         #Strategy: Assign groups of size g or g+1, if that fails reduce group size by 1 and try again
@@ -30,6 +29,36 @@ def standard_g(n, size):
                 b = b + 1
         else:
             return g(n, size-1)
+
+def results_to_csv(state, data, group_size, name='Allocation.csv', g=standard_g):
+    grouping = np.array(g(len(state), group_size))
+    number_of_groups = sum(grouping[1:])
+    
+    df = pd.DataFrame(columns=data.columns)
+
+    index = 0
+    for i in range(number_of_groups):
+
+        size_of_group = grouping[0] if i < grouping[1] else grouping[0] + 1
+
+        group_ids = state[index:(index+size_of_group)]
+
+        index = index + size_of_group
+
+        # Subtract one from each
+        group_ids = [x-1 for x in group_ids]
+        
+        # Retrieve from data
+        y = data.iloc[group_ids, :]
+        df = df.append(y)
+        df = df.append(pd.Series(), ignore_index=True)
+
+    df.to_csv(name, index=False)
+
+def email_to_department(email):
+    email = email[email.index("@")+1:]
+    email = email[0:email.index(".")]
+    return email.lower()
 
 def generate_data(n, m):
     # n is number of people
@@ -69,7 +98,7 @@ def print_pretty_allocations(state, times, group_size, g = standard_g, extras = 
         group_ids = state[index:(index+size_of_group)]
 
         index = index + size_of_group
-
+        
         # Subtract one from each
         group_ids = [x-1 for x in group_ids]
         
@@ -84,7 +113,7 @@ def print_pretty_allocations(state, times, group_size, g = standard_g, extras = 
         for j in range(y.shape[0]):
 
             # Pad string for pretty formatting
-            s = str(group_ids[j])
+            s = str(group_ids[j]+1)
             for i in range(int(digits - math.floor(math.log(group_ids[j] if group_ids[j] > 0 else 1,10)))-1):
                 s = pad(s)
             
