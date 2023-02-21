@@ -19,12 +19,12 @@ python -m ipykernel install --user --name="venv" --display-name="SAAT"
 pip install -r requirements.txt)
 ```
 
-##### Windows 
+##### Windows - run one by one
 ```
-python -m venv venv &^
-venv/Scripts/activate &^
-pip install ipykernel &^
-python -m ipykernel install --user --name="venv" --display-name="SAAT" &^
+python -m venv venv
+venv/Scripts/activate
+pip install ipykernel
+python -m ipykernel install --user --name="venv" --display-name="SAAT"
 pip install -r requirements.txt
 ```
 
