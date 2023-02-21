@@ -19,7 +19,7 @@ python -m ipykernel install --user --name="venv" --display-name="SAAT"
 pip install -r requirements.txt)
 ```
 
-##### Windows - One by 
+##### Windows 
 ```
 python -m venv venv &^
 venv/Scripts/activate &^
