@@ -86,7 +86,6 @@ def print_pretty_allocations(state, times, group_size, g = standard_g, extras = 
     x = np.asarray(times)
     size = group_size
     digits = math.floor(round(math.log(len(state)-1,10),5)) + 1
-#     print("Digits: " + str(digits))
     grouping = np.array(g(len(state), size))
     number_of_groups = sum(grouping[1:])
 
@@ -114,7 +113,7 @@ def print_pretty_allocations(state, times, group_size, g = standard_g, extras = 
 
             # Pad string for pretty formatting
             s = str(group_ids[j]+1)
-            for i in range(int(digits - math.floor(math.log(group_ids[j] if group_ids[j] > 0 else 1,10)))-1):
+            for i in range(int(digits - math.floor(math.log(group_ids[j]+1 if group_ids[j]+1 > 0 else 1,10)))-1):
                 s = pad(s)
             
             
