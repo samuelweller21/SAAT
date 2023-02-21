@@ -33,4 +33,4 @@ pip install -r requirements.txt
 pytest
 ```
 
-See Demo.ipynb for example of use
+See [Demo.ipynb](https://github.com/samuelweller21/SAAT/blob/main/Demo.ipynb) for example of use
