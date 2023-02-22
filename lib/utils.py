@@ -28,7 +28,7 @@ def standard_g(n, size):
             else:
                 b = b + 1
         else:
-            return g(n, size-1)
+            return standard_g(n, size-1)
 
 def results_to_csv(state, data, group_size, name='Allocation.csv', g=standard_g):
     grouping = np.array(g(len(state), group_size))
