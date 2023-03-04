@@ -76,14 +76,14 @@ class SAAT(Annealer):
                     temp = temp + 1
                 # If no free slots, give massive penalty
                 if temp == 0:
-                    temp = -10
+                    temp = -3
                 count = count + temp
 
             # Count total free slots
             slots_count = sum(sum(y))
 
             # Summation
-            score = count/slots_count
+            score = 5*count/slots_count
             total_score = total_score + score
             
             # Retrieve from organise
