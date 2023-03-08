@@ -10,22 +10,13 @@ cd SAAT
 
 **Install dependencies**
 
-##### Linux
 ```
-(python -m venv venv
-source venv/bin/activate
-pip install ipykernel
-python -m ipykernel install --user --name="venv" --display-name="SAAT"
-pip install -r requirements.txt)
-```
+# Intall [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
+poetry shell
+poetry install
 
-##### Windows - run one by one
-```
-python -m venv venv
-venv/Scripts/activate
-pip install ipykernel
-python -m ipykernel install --user --name="venv" --display-name="SAAT"
-pip install -r requirements.txt
+# Jupyter
+python3 -m ipykernel install --user --name="SAAT" --display-name="SAAT"
 ```
 
 **Run tests**

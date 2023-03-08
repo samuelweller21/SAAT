@@ -4,7 +4,6 @@ import random
 from simanneal import Annealer
 import random
 import numpy as np
-from termcolor import colored, cprint
 import lib.utils as utils
 
 class SAAT(Annealer):

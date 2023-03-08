@@ -6,7 +6,6 @@ from simanneal import Annealer
 import random
 import numpy as np
 import re
-from termcolor import colored, cprint
 import warnings
 warnings.simplefilter('ignore', FutureWarning)
 
