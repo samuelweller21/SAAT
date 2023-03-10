@@ -9,7 +9,22 @@ import lib.utils as utils
 class SAAT(Annealer):
 
     # pass extra data into the constructor
-    def __init__(self, times, group_size, organise = None, department = None, time_in_company = None, g = None):
+    def __init__(self, 
+                 times, 
+                 group_size, 
+                 x_wt = None, 
+                 organise_wt = 1, 
+                 time_in_company_wt = 0.5,
+                 department_wt = 0.25,
+                 no_time_penalty_wt = 0.5,
+                 organise = None, 
+                 department = None, 
+                 time_in_company = None, 
+                 g = None):
+        
+        if no_time_penalty_wt < 0 or no_time_penalty_wt > 1:
+            raise Exception("no_time_penalty_weight must be between 0 and 1")
+        
         state = list(range(1,times.shape[0]+1))
         self.x = np.asarray(times)
         self.size = group_size
@@ -17,6 +32,11 @@ class SAAT(Annealer):
         self.organise = None if organise is None else np.asarray(organise)
         self.department = None if department is None else np.asarray(department)
         self.time_in_company = None if time_in_company is None else np.asarray(time_in_company)
+        self.x_wt = organise_wt*group_size
+        self.organise_wt = organise_wt
+        self.time_in_company_wt = time_in_company_wt
+        self.department_wt = department_wt
+        self.no_time_penalty_wt = no_time_penalty_wt
         super(SAAT, self).__init__(state)  # important!
     
     def move(self):
@@ -25,11 +45,6 @@ class SAAT(Annealer):
         self.state[a], self.state[b] = self.state[b], self.state[a]
 
     def energy(self, logging=False):
-        # Recall:
-        # g is our grouping function
-        # x is our timeslot matrix [0,0,1 // 1,0,1 // 1,1,1]
-        # size is our ideal group sizes
-        
         grouping = np.array(self.g(len(self.state), self.size))
         number_of_groups = sum(grouping[1:])
         
@@ -62,16 +77,12 @@ class SAAT(Annealer):
                 if sum(y[:,c]) == y.shape[0]:
                     count = count + 1
             
-            # If no free slots, give massive penalty
-            if count == 0:
-                count = -y.shape[1]/3
-            
             # Count total free slots
             slots_count = sum(sum(y))
             
             # Summation
-            score = 15*count/slots_count
-            total_score = total_score + score
+            score = count/slots_count
+            total_score = total_score + score*self.x_wt
             
             if logging:
                 print('Current total score after free slots: {}'.format(total_score))
@@ -82,28 +93,32 @@ class SAAT(Annealer):
                 y = self.organise[group_ids]
 
                 if ((1 in y) or ('Yes' in y)):
-                    total_score = total_score + 1
+                    total_score = total_score + 1*self.organise_wt
                 elif ((0.5 in y) or ('If needed' in y)):
-                    total_score = total_score + 0.5
+                    total_score = total_score + 0.5*self.organise_wt
                 
             if logging:
                 print('Current total score after organise: {}'.format(total_score))
                 
             # Retrieve from time_in_company
             if self.time_in_company is not None:
-                total_score = total_score + len(np.unique(self.time_in_company[group_ids]))/len(self.time_in_company[group_ids])
+                total_score = total_score + self.time_in_company_wt * len(np.unique(self.time_in_company[group_ids])) / len(self.time_in_company[group_ids])
             
             if logging:
                 print('Current total score after time in org: {}'.format(total_score))
             
             # Retrieve from department
             if self.department is not None:
-                total_score = total_score + len(np.unique(self.department[group_ids]))/len(self.department[group_ids])
+                total_score = total_score + self.department_wt * len(np.unique(self.department[group_ids])) / len(self.department[group_ids])
                 
             if logging:
                 print('Current total score after department: {}'.format(total_score))
                 
             if logging:
                 utils.print_pretty_allocations(self.state, self.x, self.size)
+                
+            # If no free slots, give massive penalty
+            if count == 0:
+                total_score = total_score*(1-self.no_time_penalty_wt)
         
         return -total_score
