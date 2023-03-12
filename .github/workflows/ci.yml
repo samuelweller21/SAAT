@@ -3,8 +3,8 @@ on:
   push:
     branches:
       # - master 
-      # - main
-      - docs
+      - main
+      # - docs
 permissions:
   contents: write
 jobs:
