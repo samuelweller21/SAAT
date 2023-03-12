@@ -8,12 +8,11 @@ import lib.utils as utils
 
 class SAAT(Annealer):
 
-    # pass extra data into the constructor
     def __init__(self, 
                  times, 
                  group_size, 
-                 x_wt = None, 
-                 organise_wt = 1, 
+                 times_wt = 1, 
+                 organise_wt = 0.5, 
                  time_in_company_wt = 0.5,
                  department_wt = 0.25,
                  no_time_penalty_wt = 0.5,
@@ -28,16 +27,17 @@ class SAAT(Annealer):
         state = list(range(1,times.shape[0]+1))
         self.x = np.asarray(times)
         self.size = group_size
-        self.g = utils.standard_g
+        self.g = utils.standard_g if g is None else g
         self.organise = None if organise is None else np.asarray(organise)
         self.department = None if department is None else np.asarray(department)
         self.time_in_company = None if time_in_company is None else np.asarray(time_in_company)
-        self.x_wt = organise_wt*group_size
+        self.times_wt = times_wt*group_size
         self.organise_wt = organise_wt
         self.time_in_company_wt = time_in_company_wt
         self.department_wt = department_wt
         self.no_time_penalty_wt = no_time_penalty_wt
-        super(SAAT, self).__init__(state)  # important!
+        self.copy_strategy = "slice"
+        super(SAAT, self).__init__(state)
     
     def move(self):
         a = random.randint(0, len(self.state) - 1)
@@ -55,6 +55,8 @@ class SAAT(Annealer):
             print('Numer of groups: {}'.format(number_of_groups))
         
         for i in range(number_of_groups):
+            
+            local_score = 0
             
             if logging:
                 print('Group: {}'.format(i))
@@ -82,7 +84,7 @@ class SAAT(Annealer):
             
             # Summation
             score = count/slots_count
-            total_score = total_score + score*self.x_wt
+            local_score = local_score + score*self.times_wt
             
             if logging:
                 print('Current total score after free slots: {}'.format(total_score))
@@ -93,23 +95,23 @@ class SAAT(Annealer):
                 y = self.organise[group_ids]
 
                 if ((1 in y) or ('Yes' in y)):
-                    total_score = total_score + 1*self.organise_wt
+                    local_score = local_score + 1*self.organise_wt
                 elif ((0.5 in y) or ('If needed' in y)):
-                    total_score = total_score + 0.5*self.organise_wt
+                    local_score = local_score + 0.5*self.organise_wt
                 
             if logging:
                 print('Current total score after organise: {}'.format(total_score))
                 
             # Retrieve from time_in_company
             if self.time_in_company is not None:
-                total_score = total_score + self.time_in_company_wt * len(np.unique(self.time_in_company[group_ids])) / len(self.time_in_company[group_ids])
+                local_score = local_score + self.time_in_company_wt * len(np.unique(self.time_in_company[group_ids])) / len(self.time_in_company[group_ids])
             
             if logging:
                 print('Current total score after time in org: {}'.format(total_score))
             
             # Retrieve from department
             if self.department is not None:
-                total_score = total_score + self.department_wt * len(np.unique(self.department[group_ids])) / len(self.department[group_ids])
+                local_score = local_score + self.department_wt * len(np.unique(self.department[group_ids])) / len(self.department[group_ids])
                 
             if logging:
                 print('Current total score after department: {}'.format(total_score))
@@ -117,8 +119,10 @@ class SAAT(Annealer):
             if logging:
                 utils.print_pretty_allocations(self.state, self.x, self.size)
                 
-            # If no free slots, give massive penalty
+            # If no free slots, give penalty
             if count == 0:
-                total_score = total_score*(1-self.no_time_penalty_wt)
+                local_score = local_score*(1-self.no_time_penalty_wt)
+                
+            total_score = total_score + local_score
         
         return -total_score

@@ -1,0 +1,27 @@
+site_name: Simulated Annealing Allocation Tool
+theme:
+  name: material
+  features:
+    - navigation.expand
+  icon:
+    edit: material/pencil 
+    view: material/eye
+markdown_extensions:
+  - attr_list
+  - md_in_html
+hide:
+  - toc
+repo_url: https://github.com/samuelweller21/SAAT
+repo_name: samuelweller/SAAT
+edit_uri: edit/main/docs/
+nav:
+    - Home: 'index.md'
+    - Installation: 'installation.md'
+    - Tutorial:
+        - 'Data': 'tutorial/data.md'
+        - 'Setup': 'tutorial/setup.md'
+        - 'Annealing': 'tutorial/annealing.md'
+        - 'Results': 'tutorial/results.md'
+        - 'Weights': 'tutorial/weights.md'
+    - Paper: 'paper.md'
+    - Acknowledgements: 'acknowledgements.md'

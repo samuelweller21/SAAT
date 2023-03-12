@@ -1,9 +1,13 @@
 [tool.poetry]
 name = "SAAT"
-version = "0.1.0"
+version = "1.0.0"
 description = "Simulated annealing group allocation"
 authors = ["Samuel Weller"]
 readme = "README.md"
+
+packages = [
+    { include = "lib" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
