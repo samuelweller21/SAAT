@@ -29,7 +29,7 @@ utils.print_pretty_allocations(
     extras = data.iloc[:,2:6])
 ```
 
-![Results!](/img/results.png)
+![Results!](../img/results.png)
 
 Lastly, it can print the results to csv to be opened in Excel and easily shared:
 
