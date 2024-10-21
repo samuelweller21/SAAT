@@ -49,8 +49,9 @@ def results_to_csv(state, data, group_size, name='Allocation.csv', g=standard_g)
         
         # Retrieve from data
         y = data.iloc[group_ids, :]
-        df = df.append(y)
-        df = df.append(pd.Series(), ignore_index=True)
+        
+        df = pd.concat([df, y], ignore_index=True)
+        df = pd.concat([df, pd.DataFrame([[np.nan] * df.shape[1]], columns = df.columns)], ignore_index=True)
 
     df.to_csv(name, index=False)
 
