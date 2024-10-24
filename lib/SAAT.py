@@ -18,7 +18,8 @@ class SAAT(Annealer):
                  no_time_penalty_wt = 0.5,
                  organise = None, 
                  department = None, 
-                 time_in_company = None, 
+                 time_in_company = None,
+                 max_free_time_slot_goal = 3,
                  g = None):
         
         if no_time_penalty_wt < 0 or no_time_penalty_wt > 1:
@@ -37,6 +38,7 @@ class SAAT(Annealer):
         self.department_wt = department_wt
         self.no_time_penalty_wt = no_time_penalty_wt
         self.copy_strategy = "slice"
+        self.max_free_time_slot_goal = max_free_time_slot_goal
         super(SAAT, self).__init__(state)
     
     def move(self):
@@ -81,6 +83,8 @@ class SAAT(Annealer):
             
             # Count total free slots
             slots_count = sum(sum(y))
+            
+            count = min(count, self.max_free_time_slot_goal)
             
             # Summation
             score = count/slots_count
